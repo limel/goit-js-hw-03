@@ -4,9 +4,10 @@ const user = {
   hobby: 'html',
   premium: true,
 };
+
+user.mood = 'happy';
 user.hobby = 'skydiving';
 user.premium = false;
-user.mood = 'happy';
 
 const keys = Object.keys(user);
 
